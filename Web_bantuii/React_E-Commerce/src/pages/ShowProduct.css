@@ -1,0 +1,52 @@
+.product-image img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  .btn{
+    border: 1px solid rgb(232, 137, 137);
+  }
+  .btn:hover {
+    /* background-color: #343a40; */
+    color: white;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgb(201, 41, 41);
+  }
+
+  .product-details {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  h1.display-5 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+  h3.display-6 {
+    color: #e67e22;
+    font-weight: bold;
+  }
+  .btn-outline-dark1 {
+    border-color: #e67e22;
+    color: #e67e22; 
+  }  
+  .btn-outline-dark1:hover {
+    background-color: #e67e22;
+    color: white;
+  }
+  .btn-outline-dark1, .btn-dark{
+    border-radius: 50px; 
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  .btn-dark:hover{
+    background-color: #4c4b4b;
+    color: white;
+  }
+  .btn-dark {
+    background-color: #7d868f;
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  .Pr{
+    background-color: #343a40;
+  }
+   
